@@ -383,6 +383,7 @@ a:hover{
  .blog_bgcolor{
     background-color: #ebf0f6;
     padding: 70px 0px;
+    width: 100%;
  }
  .site-footer {
     padding-top: 70px;
