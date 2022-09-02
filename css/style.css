@@ -35,6 +35,11 @@ a:hover{
     width: 1240px;
     margin: 0px auto;
 }
+.fa-bars{
+    color:#fff;
+    font-size: 18px;
+    display: none;
+}
 .header_menu_list{
     display: flex;
     align-items: center;
@@ -603,4 +608,39 @@ a:hover{
 }
 .img-fluid{
     margin-bottom: 30px;
+}
+.mobile_menu{
+    background-color: #fff;
+    color: #fff;
+    width: 300px;
+    z-index: 78000000 !important;
+    height: 100vh !important;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 50px 0px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .4s;
+}
+.mobile_menu_list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px !important;
+    position: relative;
+}
+.mobile_menu.come{
+    opacity: 1;
+    float: left;
+  visibility: visible !important;
+}
+.fa-xmark{
+    color: #000839;
+    font-size: 24px;
+    position: absolute;
+    right:40px;
+    top: -35px;
 }

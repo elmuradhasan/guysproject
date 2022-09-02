@@ -10,5 +10,12 @@ $(document).ready(function(){
         $(".month").toggleClass("activesl");
         $(".content").toggleClass("lefts");
     });
+    $(".fa-bars").click(function(){
+        $(".mobile_menu").toggleClass("come")
+    })
+    $(".fa-xmark").click(function(){
+        $(".mobile_menu").removeClass("come")
+    })
+ 
   });
   AOS.init();

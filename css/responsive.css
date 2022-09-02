@@ -82,7 +82,11 @@
         width: 150px;
         object-fit: contain;
     }
-    
+    .fa-bars{
+      display: inline-block;
+      margin-right: 20px;
+      margin-top: -5px;
+  }
   }
   @media (max-width:800px) {
     .money_person_p{
