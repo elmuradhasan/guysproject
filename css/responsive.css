@@ -1,0 +1,118 @@
+@media (max-width:1260px) {
+    .center{
+        width: 96%;
+    }
+    .form_input_main {
+        width: 60%;
+    }
+}
+
+@media (max-width:1030px) {
+  .slide_home_sub{
+    width: 80%;
+    margin-top: 20px;
+  }
+  .slide_menu_main{
+    height: 620px;
+}
+.margin_image {
+    margin-top: 30px;
+}
+.row_div_sponsore img{
+    width: 180px ;
+    object-fit: contain;
+}
+  .sform_slide  {
+    margin-bottom: 20px;
+  }
+  .sponsore {
+    margin-top: 50px;
+  }
+  .home_flex_slide{
+    flex-direction: column;
+  }
+  .five_main_div {
+    flex-direction: column;
+  }
+  .price_div_main {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .blog_main_div{
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .blog_item_div {
+    margin-bottom: 30px;
+  }
+  .width_sek{
+    width: 80%;
+}
+.bow_right_five {
+    margin-top: 40px;
+}
+.form_input_main{
+    width: 80%;
+}
+
+}
+@media (max-width:930px) {
+    .form_input_main{
+        width: 75%;
+    }
+}
+
+@media (max-width:1000px) {
+     .menu_list_link,.free_temp{
+        display: none;
+     }
+     .row_div_sponsore img{
+        width: 150px;
+        object-fit: contain;
+    }
+    
+  }
+  @media (max-width:800px) {
+    .money_person_p{
+       width: 580px;
+    }
+    .img-fluid{
+        width:580px;
+    }
+    .feature {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .feature p{
+       width: 450px ;
+       text-align: center;
+    }
+ }
+ @media (max-width:930px) {
+    .form_input_main{
+        width: 70%;
+    }
+}
+@media (max-width:650px) {
+    .bow_right_five{
+        width: 90%;
+    }
+    .money_person_p{
+        width: 450px;
+        object-fit: contain;
+     }
+     .img-fluid{
+         width:450px;
+         object-fit: contain;
+     }
+     .margin_image{
+        height: 400px !important;
+     }
+}
+
+
+ 
+ 
+ 

@@ -1,0 +1,14 @@
+$('.owl-carousel').owlCarousel({
+    margin:10,
+    loop:true,
+    autoWidth:true,
+    items:4
+})
+$(document).ready(function(){
+    $(".period-toggle").click(function(){
+        $(".year").toggleClass("actives");
+        $(".month").toggleClass("activesl");
+        $(".content").toggleClass("lefts");
+    });
+  });
+  AOS.init();
