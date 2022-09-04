@@ -16,6 +16,14 @@ $(document).ready(function(){
     $(".fa-xmark").click(function(){
         $(".mobile_menu").removeClass("come")
     })
- 
+    $(document).click(function(e){
+        if (!$(e.target).is(".dont") && !$(e.target).is(".fa-bars")) {
+            console.log(e.target);
+            $(".mobile_menu").removeClass("come");
+        } 
+    })
+    $(".dropdownsub").click(function(){
+        $(".sub_list_ul").fadeToggle();
+    })
   });
   AOS.init();

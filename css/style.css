@@ -326,14 +326,13 @@ a:hover{
 .blog_item_div img{
     width:100%;
     height: 200px;
-    opacity:0.6;
+    filter:grayscale(1);
     background-color: #000839;
     object-fit: cover;
     cursor: pointer;
 }
 .blog_item_div img:hover{
-    opacity: 1;
-   
+    filter:grayscale(.4);
   }
 .blog_item_div:hover .label{
    opacity: 1;
@@ -613,34 +612,47 @@ a:hover{
     background-color: #fff;
     color: #fff;
     width: 300px;
-    z-index: 78000000 !important;
-    height: 100vh !important;
-    position: absolute;
+    z-index: 78000000;
+    height: 100vh;
+    padding: 50px;
+    transform: translateX(100%);
+    position: fixed;
     right: 0;
-    top: 0;
-    padding: 50px 0px;
-    visibility: hidden;
-    opacity: 0;
-    transition: all .4s;
+    transition: all .3s;
 }
 .mobile_menu_list{
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
     margin: 0px !important;
     position: relative;
 }
+.mobile_menu_list a{
+   font-size: 14px;
+   font-weight: 400;
+   transition: all .4;
+}
+.mobile_menu_list a:hover{
+    color:#ff6363;
+ }
+.sub_list_ul{
+    display: flex;
+    flex-direction: column;
+}
+ .sub_list_ul li{
+  list-style-type: none;
+  color: #fff;
+  padding: 5px;
+ }
 .mobile_menu.come{
-    opacity: 1;
-    float: left;
-  visibility: visible !important;
+    transform: translateX(0%);
 }
 .fa-xmark{
     color: #000839;
     font-size: 24px;
     position: absolute;
-    right:40px;
-    top: -35px;
+    right: -10px;
+    top: -20px;
 }
